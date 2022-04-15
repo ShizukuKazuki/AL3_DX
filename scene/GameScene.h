@@ -57,4 +57,22 @@ class GameScene {
 
 	//スプライト
 	Sprite* sprite_ = nullptr;
+
+	//サウンドデータ
+	uint32_t soundDataHandle_ = 0;
+
+    //3D
+	Model* model_ = nullptr;
+
+	//ワールドトランス
+	WorldTransform ｗorldTransform_;
+	//ビュープロジョエルロブション
+	ViewProjection viewProjection_;
+
+	//音声再生ハンドル
+	uint32_t voiceHandle_ = 0;
+
+	//値を表示
+	int32_t value_ = 0;
+
 };
